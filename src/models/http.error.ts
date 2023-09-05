@@ -1,10 +1,11 @@
-export class HttpError extends Error{
+export class HttpError extends Error {
     constructor(
-        public status:number,
-        public statusMessage:string,
-        message?:string|undefined,
-        options?:ErrorOptions|undefined
-    ){
-        super(message,options)
+      public status: number,
+      public statusMessage: string,
+      public message: string 
+   
+    ) {
+      super(message);
     }
-}
+  }
+  
