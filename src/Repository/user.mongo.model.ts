@@ -28,3 +28,4 @@ const userSchema=new Schema<User>({
 }],
 
 });
+export const UserModel=model('User',userSchema,'users');

@@ -8,8 +8,7 @@ const noticeSchema=new Schema<Notice>({
         required:true,  
     },
 image:{ 
-   
-        type:String,
+
         urlOriginal:{type:String},
         url:{type:String},  
         mimetype:{type:String},
